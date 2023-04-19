@@ -1,0 +1,148 @@
+:root {
+    --primarycolor : #ff274b;
+    --secondarycolor : #f7bcf7;
+    --lightcolor : #ffffff;
+    --bigcolor-1: #171a1c;
+    --bigcolor-1: #22282a;
+    --padding : 8%;
+
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.bg
+{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+.nav-item
+{
+    margin-left: 9px;
+    border-radius: 30px;
+    padding:2px 10px;
+}
+.card
+{
+    margin-top: 80px;
+    margin-left: 10px;
+    background-color: var(--bigcolor-1);
+    color: var(--lightcolor);
+    transition: all 0.5s;
+}
+.card:hover
+{
+    transform: scale(1.05);
+}
+ .card
+{
+    justify-content: center;
+    
+}
+.con2
+{
+    border: 1px solid var(--bigcolor-1);
+    border-radius: 7px;
+    width: 30rem;
+    height: 40rem;
+    background-color: var(--bigcolor-1);
+    margin-top: 70px;
+    margin-left: 47rem;
+}
+.navbar .navbar-toggler
+{
+    color: var(--lightcolor);
+    border-color: var(--lightcolor);
+    box-shadow: none;
+}
+
+.h3
+{
+    color: var(--primarycolor);
+}
+.name
+{
+    color: var(--lightcolor);
+    text-align: center;
+    font-size: 25px;
+}
+
+.progress-bar 
+{
+    animation: bar 2s 1;
+    background-color: var(--primarycolor);
+}
+@keyframes bar
+{
+    0%
+    {
+        width: 0%;
+    }
+}
+.glow {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+    @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+.cr7
+{
+    font-weight: bold;
+    font-size: 25px;
+    color: var(--lightcolor);
+}
+.cr7 .span
+{
+    color: var(--primarycolor);
+}
+.teams
+{
+    font-weight: bold;
+    font-size: 25px;
+    color: var(--lightcolor);
+}
+.teams .span
+{
+    color: var(--primarycolor);
+}
+.name
+{
+    font-size: 40px;
+    color: var(--lightcolor);
+}
+.name .span
+{
+    color: var(--primarycolor);
+    font-weight: bold;
+}
+::-webkit-scrollbar
+{
+    width: 10px;
+}
+::-webkit-scrollbar-track
+{
+    background-color: var(--bigcolor-1);
+}
+::-webkit-scrollbar-thumb
+{
+    border-top: 2px;
+    border-bottom: 2px;
+    border-radius: 6px;
+    background-color: var(--primarycolor);
+}

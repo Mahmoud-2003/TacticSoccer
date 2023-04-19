@@ -1,0 +1,131 @@
+:root {
+    --primarycolor : #ff274b;
+    --secondarycolor : #f7bcf7;
+    --lightcolor : #ffffff;
+    --bigcolor-1: #171a1c;
+    --bigcolor-1: #22282a;
+    --padding : 8%;
+
+}
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'josefin sans', sans-serif;
+    font-size: 16px;
+    color: var(--lightcolor);
+    margin: 0;
+    padding: 0;
+}
+ 
+.home {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bigcolor-1);
+    display: flex;
+    flex-direction: column;
+} 
+
+nav {
+    padding-top: 20px;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0.8rem 1.5rem;
+
+}
+
+nav ul li a {
+    color: var(--lightcolor);
+    text-decoration : none;
+    text-transform : capitalize;
+
+}
+
+li
+{
+    background-color: var(--primarycolor);
+    color: var(--lightcolor);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.81rem 1.87rem;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    transition: 0.4s;
+    font-size: 20px;
+
+}
+li:hover
+{
+    background-color: var(--bigcolor);
+    border: 2px solid var(--primarycolor);
+}
+
+
+nav ul li a:hover{
+    color: var(--primarycolor);
+}
+
+.btn{
+    background-color: var(--primarycolor);
+    color: var(--lightcolor);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.81rem 1.87rem;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    transition: 0.4s;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 2px solid var(--primarycolor);
+}
+.chose
+{
+    color: var(--primarycolor);
+    margin-top: 50px;
+    font: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.span
+{
+    color: var(--lightcolor);
+}
+
+.players
+{
+    text-decoration: none;
+    color: var(--lightcolor);
+    border: 2px solid var(--primarycolor);
+    border-radius: 30px;
+    background-color: var(--primarycolor);
+    padding: 0.81rem 1.87rem;
+    text-align: center;
+    margin: 3px;
+    transition: 0.4s;
+    margin-right: 5px;
+ 
+}
+
+.players:hover
+{
+    border: 2px solid var(--primarycolor);
+    background-color: #22282a;
+
+}
+
+
+

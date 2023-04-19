@@ -1,0 +1,85 @@
+:root {
+    --primarycolor : #ff274b;
+    --secondarycolor : #f7bcf7;
+    --lightcolor : #ffffff;
+    --bigcolor-1: #171a1c;
+    --bigcolor-1: #22282a;
+    --padding : 8%;
+
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.bg
+{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.nav-item
+{
+    margin-left: 9px;
+    border-radius: 30px;
+    padding:2px 10px;
+}
+.glow {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+.card-body
+{
+    background-color: var(--bigcolor-1);
+}
+.card
+{
+    border-color: #22282a;
+    border-radius: 13px;
+}
+.font
+{
+    font-size: large;
+    font-weight: bold;
+    color: var(--primarycolor);
+}
+.card
+{
+    transition: all 0.6s;
+}
+.card:hover
+{
+    transform: scale(1.15);
+}
+
+  ::-webkit-scrollbar
+  {
+      width: 10px;
+  }
+  ::-webkit-scrollbar-track
+  {
+      background-color: var(--bigcolor-1);
+  }
+  ::-webkit-scrollbar-thumb
+  {
+      border-top: 2px;
+      border-bottom: 2px;
+      border-radius: 6px;
+      background-color: var(--primarycolor);
+  }
